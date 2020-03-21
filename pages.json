@@ -1,0 +1,375 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "先锋党建"
+			}
+		},
+		{
+			"path": "pages/course/course",
+			"style": {
+				"navigationBarTitleText": "党课"
+			}
+		},
+		{
+			"path": "pages/course/course-detail",
+			"style": {
+				// "routerName": "党课-详情",
+				"navigationBarTitleText": "党课详情"
+			}
+		},
+		{
+			"path": "pages/course/course-components/period",
+			"style": {
+				// "routerName": "党课-详情-课时",
+				"navigationBarTitleText": "课时详情"
+			}
+		},
+		{
+			"path": "pages/course/course-components/point",
+			"style": {
+				// "routerName": "党课-详情-课时-知识点",
+				"navigationBarTitleText": "知识点列表"
+			}
+		},
+		{
+			"path": "pages/course/course-components/intro",
+			"style": {
+				// "routerName": "党课-详情-课时-简介",
+				"navigationBarTitleText": "简介"
+			}
+		},
+		{
+			"path": "pages/exam/exam",
+			"style": {
+				"navigationBarTitleText": "考试"
+			}
+		},
+		{
+			"path": "pages/exam/exam-detail",
+			"style": {
+				// "routerName": "考试-详情",
+				"navigationBarTitleText": "考试详情"
+			}
+		},
+		{
+			"path": "pages/exam/exam-components/requirement",
+			"style": {
+				// "routerName": "考试-详情-答题要求",
+				"navigationBarTitleText": "答题要求"
+			}
+		},
+		{
+			"path": "pages/exam/exam-components/point",
+			"style": {
+				// "routerName": "考试-详情-考察知识点",
+				"navigationBarTitleText": "考察知识点"
+			}
+		},
+		{
+			"path": "pages/exam/exam-components/start-testing",
+			"style": {
+				// "routerName": "考试-详情-试题列表",
+				"navigationBarTitleText": "试题列表"
+				/* "app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type":"close",
+							"fontSize": "22px",
+						  "float":"left"
+						}]
+					}
+				} */
+			}
+		},
+		{
+			"path": "pages/org/org",
+			"style": {
+				"navigationBarTitleText": "组织",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/mine/mine-module/base-info",
+			"style": {
+				"navigationBarTitleText": "我的信息"
+			}
+		},
+		{
+			"path": "pages/mine/mine-module/base-info-edit",
+			"style": {
+				"navigationBarTitleText": "我的信息-编辑",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue6fe",
+							"fontSrc": "/static/ttf/iconfont-save.ttf",
+							"fontSize": "22px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mine-module/upload-headimg",
+			"style": {
+				"navigationBarTitleText": "裁剪头像"
+			}
+		},
+		{
+			"path": "components/Login",
+			"style": {
+				"navigationBarTitleText": "先锋党建登录",
+				"app-plus": {
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}
+			}
+		},
+		{
+			"path": "pages/org/applying",
+			"style": {
+				"navigationBarTitleText": "入党申请"
+			}
+		},
+		{
+			"path": "pages/org/task-detail",
+			"style": {
+				"navigationBarTitleText": "任务详情"
+			}
+		},
+		{
+			"path": "pages/mine/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/index/partMap",
+			"style": {
+				"navigationBarTitleText": "党建地图"
+			}
+		},
+		{
+			"path": "pages/org/sub-task",
+			"style": {
+				"navigationBarTitleText": "子任务"
+			}
+		},
+		{
+			"path": "pages/index/news-detail",
+			"style": {
+				"navigationBarTitleText": "新闻详情"
+			}
+		},
+		{
+			"path": "pages/index/news-list",
+			"style": {
+				"navigationBarTitleText": "新闻列表",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue625",
+							"fontSrc": "/static/ttf/iconfont-tick.ttf",
+							"fontSize": "22px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		}, {
+			"path": "pages/mine/calendar/calendar",
+			"style": {
+				"navigationBarTitleText": "签到日历"
+			}
+		}, {
+			"path": "pages/mine/integral",
+			"style": {
+				"navigationBarTitleText": "我的积分"
+			}
+		}
+
+		, {
+			"path": "pages/mine/task-list",
+			"style": {
+				"navigationBarTitleText": "我的任务"
+			}
+		}, {
+			"path": "pages/mine/task-detail",
+			"style": {
+				"navigationBarTitleText": "任务详情"
+			}
+		}, {
+			"path": "pages/mine/task-history",
+			"style": {
+				"navigationBarTitleText": "流程详情"
+			}
+		}, {
+			"path": "pages/mine/task-component/task-form",
+			"style": {
+				"navigationBarTitleText": "任务表单"
+			}
+		}, {
+			"path": "pages/mine/task-component/tree",
+			"style": {
+				"navigationBarTitleText": "组织树",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue660",
+							"fontSrc": "/static/ttf/iconfont-tick.ttf",
+							"fontSize": "22px"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/mine/task-component/vote-detail",
+			"style": {
+				"navigationBarTitleText": "选票详情"
+			}
+		}, {
+			"path": "pages/mine/meeting/meeting-list",
+			"style": {
+				"navigationBarTitleText": "会议列表"
+			}
+		}, {
+			"path": "pages/mine/meeting/meeting-detail",
+			"style": {
+				"navigationBarTitleText": "会议详情"
+			}
+		}
+
+		, {
+			"path": "pages/mine/org-life/org-life",
+			"style": {
+				"navigationBarTitleText": "组织生活"
+			}
+		}
+
+		, {
+			"path": "pages/mine/org-life/conversation/conversation",
+			"style": {
+				"navigationBarTitleText": "谈心谈话"
+			}
+		}, {
+			"path": "pages/mine/org-life/conversation/conversation-detail",
+			"style": {
+				"navigationBarTitleText": "谈心谈话-详情"
+			}
+		}
+
+		, {
+			"path": "pages/mine/org-life/my-advice",
+			"style": {
+				"navigationBarTitleText": "我的建议"
+			}
+		}
+
+		, {
+			"path": "pages/mine/org-life/my-report",
+			"style": {
+				"navigationBarTitleText": "我的报告"
+			}
+		}
+
+		, {
+			"path": "pages/mine/org-life/my-sum",
+			"style": {
+				"navigationBarTitleText": "我的总结"
+			}
+		}
+
+		, {
+			"path": "pages/mine/org-life/my-plan",
+			"style": {
+				"navigationBarTitleText": "我的规划"
+			}
+		}
+
+		, {
+			"path": "pages/mine/org-life/my-detail",
+			"style": {
+				"navigationBarTitleText": "详情" //我的建议、我的规划、我的报告、我的总结
+			}
+		}
+
+		, {
+			"path": "pages/mine/org-life/leave/my-leave",
+			"style": {
+				"navigationBarTitleText": "我的请假"
+			}
+		}
+
+		, {
+			"path": "pages/mine/org-life/leave/my-leave-process",
+			"style": {
+				"navigationBarTitleText": "我的请假流程"
+			}
+		}, {
+			"path": "pages/org_task/org_task",
+			"style": {
+				"navigationBarTitleText": "组织工作"
+			}
+		}
+	    ,{
+            "path" : "pages/mine/message",
+            "style" : {"navigationBarTitleText": "通知消息"}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "先锋党建",
+		"navigationBarBackgroundColor": "#ff6955",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#aaa",
+		"selectedColor": "#ff6955",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/headpage.png",
+				"selectedIconPath": "static/images/headpageselected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/course/course",
+				"iconPath": "static/images/partybuilding.png",
+				"selectedIconPath": "static/images/partybuildingselected.png",
+				"text": "党课"
+			},
+			{
+				"pagePath": "pages/exam/exam",
+				"iconPath": "static/images/exam.png",
+				"selectedIconPath": "static/images/examselected.png",
+				"text": "考试"
+			},
+			{
+				"pagePath": "pages/org_task/org_task",
+				"iconPath": "static/images/organization.png",
+				"selectedIconPath": "static/images/organizationselected.png",
+				"text": "组织"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/images/mine.png",
+				"selectedIconPath": "static/images/mineselected.png",
+				"text": "我的"
+			}
+		]
+	}
+}
